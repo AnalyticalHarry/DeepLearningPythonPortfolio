@@ -81,3 +81,10 @@ plt.title('Training and Validation Loss for Best Model')
 plt.legend()
 plt.grid(True)
 plt.show()
+
+# ******************************************************
+# Author: Hemant Thapa
+# Programming Language: Python
+# Date Pushed to GitHub: 29.01.2024
+# Email: hemantthapa1998@gmail.com
+# ******************************************************
