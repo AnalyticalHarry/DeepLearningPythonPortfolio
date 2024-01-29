@@ -11,11 +11,14 @@ Data-Driven: Deep learning models require large amounts of data to learn from. T
 
 Applications: Deep learning is used in a variety of applications like image and speech recognition, natural language processing, self-driving cars, and much more.
 
-More Deep Learning Projects:
+Digit Classification:
 
 ````
 https://github.com/AnalyticalHarry/DeepLearningForDigitClassification
 ````
+
+Text to Speech:
+
 ```
 https://github.com/AnalyticalHarry/TextToSpeakAlgorithms
 ```
