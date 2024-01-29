@@ -10,3 +10,9 @@ Learning Process: The learning process in deep learning models involves adjustin
 Data-Driven: Deep learning models require large amounts of data to learn from. They excel at identifying patterns in unstructured data such as images, sound, text, and time series.
 
 Applications: Deep learning is used in a variety of applications like image and speech recognition, natural language processing, self-driving cars, and much more.
+
+More Deep Learning Projects:
+
+````
+https://github.com/AnalyticalHarry/DeepLearningForDigitClassification
+````
