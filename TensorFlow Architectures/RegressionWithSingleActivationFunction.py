@@ -55,3 +55,10 @@ def RegNeuralNet(X,y):
       print(f'Best Number of Neurons: {best_num_neurons}')
   
 RegNeuralNet(X,y)
+
+# ******************************************************
+# Author: Hemant Thapa
+# Programming Language: Python
+# Date Pushed to GitHub: 29.01.2024
+# Email: hemantthapa1998@gmail.com
+# ******************************************************
