@@ -1,3 +1,4 @@
+#importing libraries 
 import itertools
 import random 
 import numpy as np
