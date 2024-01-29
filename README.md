@@ -16,3 +16,6 @@ More Deep Learning Projects:
 ````
 https://github.com/AnalyticalHarry/DeepLearningForDigitClassification
 ````
+```
+https://github.com/AnalyticalHarry/TextToSpeakAlgorithms
+```
