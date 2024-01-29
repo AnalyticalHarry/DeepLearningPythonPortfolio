@@ -70,7 +70,7 @@ print(f'Best Optimizer: {best_optimizer}')
 #plot the training and validation accuracy for the best model
 plt.figure(figsize=(10, 6))
 plt.plot(range(1, len(best_training_accuracy) + 1), best_training_accuracy, label='Best Model Training Accuracy', linestyle='--')
-plt.plot((range(1, len.best_validation_accuracy) + 1), best_validation_accuracy, label='Best Model Validation Accuracy')
+plt.plot(range(1, len(best_validation_accuracy) + 1), best_validation_accuracy, label='Best Model Validation Accuracy')
 plt.xlabel('Epochs')
 plt.ylabel('Accuracy')
 plt.title('Training and Validation Accuracy for Best Model')
