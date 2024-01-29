@@ -25,7 +25,7 @@ def build_classification_model(hidden_layer_size, num_neurons, activations, opti
     return model
 
 #hyperparameters to search
-hidden_layer_sizes = [1, 2, 3]
+hidden_layer_sizes = [1, 2, 3, 4, 5]
 num_neurons_options = [16, 32, 64]
 activation_functions = ['relu', 'tanh', 'sigmoid']
 optimizers = ['adam', 'sgd', 'rmsprop']
@@ -44,7 +44,7 @@ for hidden_layer_size in hidden_layer_sizes:
         for activations in itertools.product(activation_functions, repeat=hidden_layer_size):
             for optimizer in optimizers:
                 model = build_classification_model(hidden_layer_size, num_neurons, activations, optimizer)
-                history = model.fit(X_train, y_train, validation_split=0.2, epochs=1, verbose=0)
+                history = model.fit(X_train, y_train, validation_split=0.2, epochs=10, verbose=0)
                 _, accuracy = model.evaluate(X_test, y_test, verbose=0)
                 print(f'Hidden Layers: {hidden_layer_size}, Neurons: {num_neurons}, Activations: {activations}, Optimizer: {optimizer}, Accuracy: {accuracy:.4f}')
                 if accuracy > best_accuracy:
