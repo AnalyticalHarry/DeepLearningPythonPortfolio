@@ -22,3 +22,8 @@ Text to Speech:
 ```
 https://github.com/AnalyticalHarry/TextToSpeakAlgorithms
 ```
+
+Natural Language Processing
+```
+https://github.com/AnalyticalHarry/NLPwithTensorFlow
+```
