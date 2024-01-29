@@ -29,7 +29,7 @@ hidden_layer_sizes = [x for x in range(1, 6)]
 #numer of neurons 
 num_neurons_options = [16, 32, 64]
 #activation functions 
-activation_functions = ['relu', 'tanh', 'sigmoid', 'leaky_relu', 'prelu', 'elu', 'swish', 'selu', 'gelu', 'softmax']
+activation_functions = ['relu', 'tanh', 'sigmoid', 'leaky_relu', 'elu', 'swish', 'selu', 'gelu', 'softmax']
 #optimizers
 optimizers = ['adam', 'sgd', 'rmsprop', 'adagrad', 'nadam', 'adadelta']
 
