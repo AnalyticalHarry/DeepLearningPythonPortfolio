@@ -27,3 +27,8 @@ Natural Language Processing
 ```
 https://github.com/AnalyticalHarry/NLPwithTensorFlow
 ```
+
+Visualise your neural nets
+```
+https://alexlenail.me/NN-SVG/
+```
